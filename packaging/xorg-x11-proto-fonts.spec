@@ -1,7 +1,7 @@
 Name:     xorg-x11-proto-fonts
 Summary:  X.Org X11 Protocol fontsproto
-Version:  2.1.2
-Release:  2
+Version:  2.1.3
+Release:  1
 Group:    Development/System
 License:  MIT
 URL:      http://www.x.org
@@ -43,4 +43,3 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_includedir}/X11/fonts/*.h
 %{_datadir}/pkgconfig/*.pc
-
